@@ -1,22 +1,21 @@
-# Documento de Visão do Projeto "NOME DO PROJETO"
+# Documento de Visão do Projeto "SISTEMA CONSULTÓRIO MÉDICO"
 
-Este documento apresenta uma solução de software para o projeto *"NOME DO PROJETO"*, solicitado pelo cliente *"NOME DO CLIENTE"*, 
+Este documento apresenta uma solução de software para o projeto *"SISTEMA CONSULTÓRIO MÉDICO"*, solicitado pelo cliente *"CLINICA VIVER BEM "*, 
 apresentando os problemas a serem solucionados, as necessidades dos principais envolvidos, o alcance do projeto e as funcionalidades 
 esperadas do sistema.
 
 ## Objetivos
 
-* Objetivo 1
-* Objetivo 2
-* Objetivo 3
+* Criar um softwares capaz de administrar informações dos Pacientes e Médicos
+* Capaz de administrar Consultas Médicas
+* Administrar Exames Médicos
 * etc.
 
 ## Problema
-
-* Descrição do problema: ___
-* Quem é afetado pelo problema: ____
-* Impacto no negócio: ___
-* Benefícios de uma boa solução: ___
+* Descrição do problema: Dificuldade no agendamento e encaminhamento de consultas por causa do alto volume de pacientes e o processo ser de forma manual
+* Quem é afetado pelo problema: Pacientes e a administração da Cliníca Viver Bem
+* Impacto no negócio: Aumento do número de pacientes cadastrados na cliníca, número de consultas e de encaminhamentos de exames
+* Benefícios de uma boa solução: Eficiência no Agendamento de Consultas e Exames
 
 ## Definições, abreviações e outros termos do domínio do problema
 
@@ -34,29 +33,29 @@ esperadas do sistema.
  
 ## Interessados
 
-* Tipo de interessado 1
-* Tipo de interessado 2
-* Tipo de interessado 3
+* Recepcionista 
+* Paciente
+* Médico
 * etc.
 
 ## Usuários
 
-* Tipo de usuário 1
-* Tipo de usuário 2
+* Recepcionista (Administrador)
+* Paciente (Comum)
 * Tipo de usuário 3
 * etc.
 
 ## Funcionalidades do produto
 
-* Funcionalidade 1
-* Funcionalidade 2
-* etc.
+* Cadastrar Pacientes e Médicos
+* Agendar Consultas e Exames Médicos
+* E outros
 
 ## Restrições do projeto
 
-* Restrição 1
-* Restrição 2
-* Restrição 3
+* Não pode ter duas consultas no mesmo horário com o mesmo médico 
+* Não pode ter dois exames no mesmo horário com o mesmo médico 
+* Não pode ter no mesmo horário um exame e uma consulta com o mesmo médico
 * etc.
 
 ## Protótipos de tela
