@@ -59,6 +59,47 @@
 |1.Seleciona o Cadastro 	|
 |2. O sistema apresenta os dados do cadastro|
 
+| Campo          | Informação        |
+|---|---|
+| Identificador: | UC02              |
+| Nome:          | Marcar Consulta |
+| Atores:        | Funcionário administrativo |
+| Sumário:       | Permite que o funcionário administrativo inclua, altere, exclua ou consulte os dados da consulta. |
+
+|Fluxo Alternativo 1 (FA1) – Marcar Consulta|
+|---|
+|Ações do Ator	Ações do Sistema|
+|1.Seleciona a opção Marcar Consulta| 	
+|2. O sistema apresenta os dados para serem cadastrados| 
+|3.  Preenche os dados| 	
+|4.Seleciona a opção Salvar|	
+|5.Salva os dados da nova consulta| 
+
+|Fluxo Alternativo 2 (FA2) – Alterar Consulta|
+|---|
+|Ações do Ator	Ações do Sistema|
+|1.Seleciona o Consulta|	
+|2. O sistema apresenta os dados do Consulta para alteração| 
+|3.  Altera os dados do Consulta|	
+|4.Seleciona a opção Confirma Alteração|	
+|5.Atualiza os dados da Consulta do paciente |
+
+|Fluxo Alternativo 3 (FA3) – Excluir Consulta|
+|---|
+|Ações do Ator	Ações do Sistema|
+|1.Seleciona Consulta 	|
+|2. O sistema apresenta os dados do Consulta que será excluída|
+|3. Solicita confirmação de exclusão.|
+|4.Confirma Exclusão	|
+|5.Exclui o Consulta|
+
+|Fluxo Alternativo 4 (FA4) – Consultar Consulta|
+|---|
+|Ações do Ator	Ações do Sistema|
+|1.Seleciona o Consulta 	|
+|2. O sistema apresenta os dados do Consulta|
+
+
 
 **Instruções do professor**: As tabelas acima mostram um exemplo de especificação de **um único caso de uso**. Lembre-se de especificar cada um dos casos de uso.
 
