@@ -20,6 +20,7 @@
 | Sumário:       | Permite que o funcionário administrativo inclua, altere, exclua ou consulte os dados do cadastro. |
 
 | Fluxo Principal |
+|---|
 |1.	Selecionar a opção Realizar Cadastro|	
 |2.	O sistema apresenta uma lista com todos os campos a serem preenchidos.|
 |3.	O sistema apresenta opções de Incluir (FA1), Alterar (FA2), Excluir (FA3) ou Consultar (FA4).|
