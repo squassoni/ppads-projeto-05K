@@ -27,6 +27,7 @@
 |4.	Seleciona a opção desejada.|	
 
 |Fluxo Alternativo 1 (FA1) – Incluir Cadastro|
+|---|
 |Ações do Ator	Ações do Sistema|
 |1.Seleciona a opção Incluir Cadastro| 	
 |2. O sistema apresenta os dados para serem cadastrados| 
@@ -35,6 +36,7 @@
 |5.Salva os dados do novo paciente ou funcionário| 
 
 |Fluxo Alternativo 2 (FA2) – Alterar Cadastro|
+|---|
 |Ações do Ator	Ações do Sistema|
 |1.Seleciona o Cadastro|	
 |2. O sistema apresenta os dados do cadastro para alteração| 
@@ -43,6 +45,7 @@
 |5.Atualiza os dados do cadastro do paciente ou funcionário|
 
 |Fluxo Alternativo 3 (FA3) – Excluir Cadastro|
+|---|
 |Ações do Ator	Ações do Sistema|
 |1.Seleciona Cadastro 	|
 |2. O sistema apresenta os dados do cadastro que será excluída|
@@ -51,6 +54,7 @@
 |5.Exclui o cadastro|
 
 |Fluxo Alternativo 4 (FA4) – Consultar Cadastro|
+|---|
 |Ações do Ator	Ações do Sistema|
 |1.Seleciona o Cadastro 	|
 |2. O sistema apresenta os dados do cadastro|
