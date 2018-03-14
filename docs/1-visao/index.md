@@ -19,23 +19,16 @@ esperadas do sistema.
 
 ## Definições, abreviações e outros termos do domínio do problema
 
-* Definição 1
-* Definição 2
-* Definição 3
-* etc.
+* Ainda não há itens à serem cadastrados
 
 ## Integração com outros sistemas
 
-* Sistema externo 1
-* Sistema externo 2
-* Sistema externo 3
-* etc.
+* Ainda não há itens à serem cadastrados
  
 ## Interessados
 
-* Recepcionista 
-* Paciente
-* Médico
+* Técnicos em TI 
+* Auxiliares administrativos
 * etc.
 
 ## Usuários
@@ -56,7 +49,7 @@ esperadas do sistema.
 * Não pode ter duas consultas no mesmo horário com o mesmo médico 
 * Não pode ter dois exames no mesmo horário com o mesmo médico 
 * Não pode ter no mesmo horário um exame e uma consulta com o mesmo médico
-* etc.
+* A princípio não haverá aplicação móvel
 
 ## Protótipos de tela
 
