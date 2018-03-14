@@ -99,6 +99,58 @@
 |1.Seleciona o Consulta 	|
 |2. O sistema apresenta os dados do Consulta|
 
+### 2.1. Caso de uso **MARCAR CONSULTA**
+
+| Campo          | Informação        |
+|---|---|
+| Identificador: | UC02              |
+| Nome:          | Marcar Consulta |
+| Atores:        | Funcionário administrativo |
+| Sumário:       | Este caso de uso permite que o funcionário inclua, altere, exclua ou consulte os dados referente a consulta|
+
+|Fluxo Principal|
+|---|
+|Ações do Ator	Ações do Sistema|
+|1. Selecionar a opção Marcar Consulta|	
+|2. O sistema apresenta uma lista com todos os requisitos da consulta.|
+|3. O sistema apresenta opções de Incluir (FA1), Alterar (FA2), Excluir (FA3) ou Consultar (FA4).|
+|4. Seleciona a opção desejada.	|
+
+|Fluxo Alternativo 1 (FA1) – Incluir Consulta|
+|---|
+|Ações do Ator	Ações do Sistema|
+|1. Seleciona a opção Incluir Consulta|	
+|2. O sistema apresenta os dados a serem registrados.|
+|3. Preenche os dados |	
+|4. Seleciona a opção Salvar|	
+|5. Salva os dados da consulta|
+
+|Fluxo Alternativo 2 (FA2) – Alterar Consulta|
+|---|
+|Ações do Ator Ações do Sistema|
+|1. Seleciona o Consulta|	
+|2. O sistema apresenta os dados da consulta para alteração |
+|3. Altera os dados da Consulta	|
+|4. Seleciona a opção Confirmar Alteração|	
+|5. Atualiza os dados da consulta|
+
+|Fluxo Alternativo 3 (FA3) – Excluir Consulta|
+|---|
+|Ações do Ator Ações do Sistema|
+|1. Seleciona o Consulta |	
+|2. O sistema apresenta a consulta que será excluída|
+|3. Solicita confirmação de exclusão|
+|4. Confirma Exclusão	|
+|5. Exclui a consulta|
+
+|Fluxo Alternativo 4 (FA4) – Consultar|
+|Ações do Ator	Ações do Sistema|
+|1.Seleciona a Consulta|	
+|2. O sistema apresenta os dados da consulta|
+
+
+
+
 
 
 **Instruções do professor**: As tabelas acima mostram um exemplo de especificação de **um único caso de uso**. Lembre-se de especificar cada um dos casos de uso.
