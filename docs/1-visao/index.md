@@ -1,6 +1,6 @@
 # Documento de Visão do Projeto "SISTEMA CONSULTÓRIO MÉDICO"
 
-Este documento apresenta uma solução de software para o projeto *"SISTEMA CONSULTÓRIO MÉDICO"*, solicitado pelo cliente *"CLINICA VIVER BEM "*, 
+Este documento apresenta uma solução de software para o projeto *"SISTEMA CONSULTÓRIO MÉDICO"*, solicitado pelo cliente *"CLÍNICA VIVER BEM "*, 
 apresentando os problemas a serem solucionados, as necessidades dos principais envolvidos, o alcance do projeto e as funcionalidades 
 esperadas do sistema.
 
@@ -46,9 +46,13 @@ esperadas do sistema.
 
 ## Restrições do projeto
 
-* Não pode ter duas consultas no mesmo horário com o mesmo médico 
-* Não pode ter dois exames no mesmo horário com o mesmo médico 
-* Não pode ter no mesmo horário um exame e uma consulta com o mesmo médico
+*	O sistema deve ter capacidade para recuperar os dados perdidos da última operação que realizou em caso de falha. 
+*	O sistema deve fornecer facilidades para a realização de alteração no sistema.
+*	O sistema deve possuir senhas de acesso e identificação para diferentes tipos seja pacientes, médicos e funcionários administrativos.  
+* O sistema deve responder a consultas on-line em menos de 5 segundos. 
+*	O sistema deve iniciar a impressão de relatórios solicitados dentro de no máximo 20 segundos após sua requisição. 
+*	O sistema deve ser executado em computadores Intel Core i3 ou superior, com sistema operacional Windows 7 ou acima.
+*	O sistema deve ser capaz de armazenar os dados em base de dados Oracle ou Sybase
 * A princípio não haverá aplicação móvel
 
 ## Protótipos de tela
