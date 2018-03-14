@@ -144,6 +144,7 @@
 |5. Exclui a consulta|
 
 |Fluxo Alternativo 4 (FA4) – Consultar|
+|---|
 |Ações do Ator	Ações do Sistema|
 |1.Seleciona a Consulta|	
 |2. O sistema apresenta os dados da consulta|
