@@ -99,7 +99,9 @@
 |1.Seleciona o Consulta 	|
 |2. O sistema apresenta os dados do Consulta|
 
-### 2.1. Caso de uso **MARCAR CONSULTA**
+
+
+### 2.2. Caso de uso **MARCAR CONSULTA**
 
 | Campo          | Informação        |
 |---|---|
@@ -148,6 +150,41 @@
 |Ações do Ator	Ações do Sistema|
 |1.Seleciona a Consulta|	
 |2. O sistema apresenta os dados da consulta|
+
+
+
+### 2.3. Caso de uso **ALTERAR CONSULTA**
+
+| Campo          | Informação        |
+|---|---|
+| Identificador: | UC03              |
+| Nome:          | Alterar Consulta |
+| Atores:        | Paciente |
+| Sumário:       | Este caso de uso permite que o paciente solicite alteração de consulta|
+
+|Fluxo Principal|
+|---|
+|Ações do Ator	Ações do Sistema|
+|1.Selecionar a opção Alterar Consulta|	
+|2.O sistema apresenta uma lista com todas as consultas do paciente.|
+|3.O sistema apresenta opções de Alterar (FA2) ou Consultar (FA4).|
+|4.Seleciona a opção desejada.	|
+
+|Fluxo Alternativo 2 (FA2) – Alterar Consulta|
+|---|
+|Ações do Ator	Ações do Sistema|
+|1. Seleciona a Consulta	|
+|2. O sistema apresenta os dados da consulta para alteração 
+|3. Altera os dados da consulta|	
+|4. Seleciona a opção Confirmar Alteração|	
+|5. Atualiza os dados do paciente|
+
+|Fluxo Alternativo 3 (FA3) – Consultar Candidato|
+|---|
+|Ações do Ator	Ações do Sistema|
+|1. Seleciona a consulta|	
+|2. O sistema apresenta os dados da consulta|
+
 
 
 
