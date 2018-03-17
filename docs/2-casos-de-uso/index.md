@@ -187,6 +187,88 @@
 
 
 
+	
+
+### 2.4. Caso de uso **CANCELAR CONSULTA**
+
+| Campo          | Informação        |
+|---|---|
+| Identificador: | UC04              |
+| Nome:          | Cancelar Consulta |
+| Atores:        | Paciente |
+| Sumário:       | Permite que o paciente realize o cancelamento da consulta|
+
+|Fluxo Principal|
+|---|
+|Ações do Ator	Ações do Sistema|
+|1.	Selecionar a opção Cancelar Consulta	|
+|2.	O sistema apresenta uma lista com todas as consultas.
+|3.	O sistema apresenta opções de Excluir (FA3).|
+|4.	Seleciona a opção desejada.|	
+
+|Fluxo Alternativo 3 (FA3) – Excluir Consulta|
+|---|
+|Ações do Ator	Ações do Sistema|
+|1.Seleciona a Consulta	|
+|2. O sistema apresenta os dados da Consulta que será excluído|
+|3. Solicita confirmação de exclusão|
+|4.Confirma Exclusão	|
+|5.Exclui a Consulta|
+
+
+### 2.5. Caso de uso **REALIZAR CONSULTA**
+
+| Campo          | Informação        |
+|---|---|
+| Identificador: | UC05              |
+| Nome:          | Realizar Consulta |
+| Atores:        | Médico|
+| Sumário:       | Permite que o médico registre os dados referente a consulta realizada|
+
+|Fluxo Principal|
+|---|
+|Ações do Ator	Ações do Sistema|
+|9.	Selecionar a opção Realizar Consulta	|
+|	10.	O sistema apresenta uma lista com todos pacientes do dia.|
+|	11.	O sistema apresenta opções de Incluir (FA1), Alterar (FA2), Excluir (FA3) ou Consultar (FA4).|
+|12.	Seleciona a opção desejada.	|
+
+|Fluxo Alternativo 1 (FA1) – Incluir Registro|
+|---|
+|Ações do Ator	Ações do Sistema|
+|1.Seleciona a opção Incluir Registro	|
+|	2. O sistema apresenta os dados para serem cadastrados |
+|3.  Preenche os dados 	|
+|4.Seleciona a opção Salvar	|
+|	5.Salva os dados do novo registro|
+
+|Fluxo Alternativo 2 (FA2) – Alterar Registro|
+|---|
+|Ações do Ator	Ações do Sistema|
+|1.Seleciona o Registro	|
+|	2. O sistema apresenta os dados do registro para alteração |
+|3.  Altera os dados do registro	|
+|4.Seleciona a opção Confirmar Alteração	|
+|	5.Atualiza os dados do registro|
+
+|Fluxo Alternativo 3 (FA3) – Excluir Registro|
+|---|
+|Ações do Ator	Ações do Sistema|
+|1.Seleciona o Registro	|
+|	2. O sistema apresenta os dados do registro que será excluído|
+|	3. Solicita confirmação de exclusão|
+|4.Confirma Exclusão	|
+|	5.Exclui o registro|
+
+|Fluxo Alternativo 4 (FA4) – Consultar Registro|
+|---|
+|Ações do Ator	Ações do Sistema|
+|1.Seleciona o Registro	|
+|	2. O sistema apresenta os dados do Registro|
+
+
+
+
 
 
 
