@@ -6,6 +6,5 @@
 
 * Bruno Candiani Squassoni
 * Christopher Dias Soares
-* Felipe Wills Martirani 
 * Juliano Moraes Lopes
 * Aluno 5
