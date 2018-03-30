@@ -57,16 +57,16 @@ esperadas do sistema.
 
 ## Protótipos de tela
 
-### Protótipos para funcionalidade 1
+### Protótipos para Tela Inicial
 
 ![](proto1.PNG)
 
-Fonte: Exemplos gerados pelo assistente do **Enterprise Architect**.
 
-### Protótipos para funcionalidade 2
+### Protótipos para Cadastrar Paciente
 
 ![](proto2.PNG)
 
-Fonte: Exemplos gerados pelo assistente do **Enterprise Architect**.
 
-### Protótipos para funcionalidade N
+### Protótipos para Listar Paciente
+
+![](proto3.PNG)
