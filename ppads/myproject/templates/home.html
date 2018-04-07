@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block breadcrumb %}
+       <a href="{% url 'home' %}"><li class="breadcrumb-item active">Home</li></a>
+{% endblock %}
+
+{% block content %}
+<p><a href="{% url 'cadastro_paciente' %}">Cadastrar paciente</a></p>
+<p><a href="{% url 'lista_paciente' %}">Lista de pacientes</a></p>
+{% endblock %}

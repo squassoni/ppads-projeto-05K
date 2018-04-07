@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}Projeto PPADS{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/app.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<body>
+
+<nav class="navbar navbar-light" style="background-color: #42a4f4;">
+    <div class="container">
+        <a class="navbar-brand" href="{% url 'home' %}">Projeto home</a>
+    </div>
+</nav>
+<div class="container">
+    <ol class="breadcrumb my-4">
+        {% block breadcrumb %}
+        {% endblock %}
+    </ol>
+    {% block content %}
+    {% endblock %}
+</div>
+</body>
+</html>

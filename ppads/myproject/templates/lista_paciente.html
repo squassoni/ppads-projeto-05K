@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block breadcrumb %}
+       <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+       <li class="breadcrumb-item active">Lista de Pacientes</li>
+{% endblock %}
+
+{% block content %}
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th>NOME</th>
+            <th>SOBRENOME</th>
+            <th>EMAIL</th>
+            <th>TELEFONE</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for paciente in pacientes %}
+        <tr>
+            <td>{{ paciente.nome }}</td>
+            <td>{{ paciente.sobrenome }}</td>
+            <td>{{ paciente.email }}</td>
+            <td>{{ paciente.telefone }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
