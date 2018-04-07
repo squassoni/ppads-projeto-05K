@@ -2,9 +2,9 @@
 
 ## Organização em camadas
 
-![](diagrama-camadas.png)
+![](diagrama-camadas2.png)
 
 
 ## Implantação
 
-![](diagrama-implantacao.jpg)
+![](diagrama-implantacao2.jpg)
