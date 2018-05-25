@@ -36,7 +36,7 @@ Em cada procedimento de teste, siga o modelo abaixo:
 | 2 | Preencher os campos **login** e **password** com os dados de um usuário com perfil de **Funcionário** ou **Paciente**. | Apresentação do painel do Funcionário |
 | 3 | Clicar no link **Criar Consulta**. | Apresentação de formulário de agendamento |
 
-
+****************************************************************************************************************************************
 **Nome do caso de uso:** Realizar Cadastro
 
 **Preparação:**
@@ -48,7 +48,7 @@ Em cada procedimento de teste, siga o modelo abaixo:
 | 1 | Executar o navegador Chrome e acesse a URL http://ppads-dev2.us-west-2.elasticbeanstalk.com/login | Apresentação da tela de login do sistema |
 | 2 | Clicar em **Cadastrar** | Apresentação do formulário de cadastro de Usuário |
 
-
+****************************************************************************************************************************************
 **Nome do caso de uso:** Alterar Consulta
 
 **Preparação:**
@@ -64,7 +64,7 @@ Em cada procedimento de teste, siga o modelo abaixo:
 | 3 | Clicar no link **Agenda**. | Apresentação de formáliro de agendamento |
 | 4 | Selecionar consulta a ser Alterada | Apresentação de formulário de alteração |
 
-
+****************************************************************************************************************************************
 **Nome do caso de uso:** Cancelar Consulta
 
 **Preparação:**
@@ -80,7 +80,7 @@ Em cada procedimento de teste, siga o modelo abaixo:
 | 3 | Clicar no link **Agenda**. | Apresentação de formáliro de agendamento |
 | 4 | Selecionar consulta a ser Cancelada | Apresentação de formulário de cancelamento |
 
-
+****************************************************************************************************************************************
 **Nome do caso de uso:** Realizar Consulta
 
 **Preparação:**
